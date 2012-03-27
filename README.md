@@ -1,5 +1,7 @@
 # JavaScript Basic Route Matcher
 
+** This is a fork. All credits and peans goes to [Ben Alman](https://github.com/cowboy). I just add a package.json to use it with npm. **
+
 A simple route matching / url building utility. Intended to be included as part of a larger routing library.
 
 ## Getting Started
@@ -9,6 +11,12 @@ This code should work just fine in Node.js:
 ```javascript
 var routeMatcher = require('lib/routematcher').routeMatcher;
 var myRoute = routeMatcher("user/:id");
+```
+
+If you're using <code>npm</code>:
+
+```javascript
+var routeMatcher = require('routematcher').routeMatcher;
 ```
 
 Or in the browser:
