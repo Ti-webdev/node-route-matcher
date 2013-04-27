@@ -1,5 +1,5 @@
 /*global require:true */
-var routeMatcher = require('../lib/routematcher').routeMatcher;
+var routeMatcher = require(__dirname+'/../');
 
 exports.parse = {
   "regex route": function(test) {

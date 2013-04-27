@@ -1,10 +1,19 @@
 {
-  "name": "routematcher",
-  "version": "0.1.0",
-  "keywords" : ["route", "match", "routing"],
-  "description" : "A simple route matching / url building utility. Intended to be included as part of a larger routing library.",
-  "homepage": "http://github.com/cowboy/javascript-route-matcher",
-  "author": "'Cowboy' Ben Alman",
-  "repository": "git@github.com:dsci/javascript-route-matcher.git",
-  "main": "./lib/routematcher.js"
+  "name": "node-route-matcher",
+  "version": "0.1.1",
+  "keywords": [
+    "route",
+    "match",
+    "routing"
+  ],
+  "description": "A simple route matching / url building utility. Intended to be included as part of a larger routing library.",
+  "homepage": "https://github.com/Ti-webdev/node-route-matcher",
+  "author": "'Ti' Vasily Mikhaylovsky",
+  "repository": "git://github.com/Ti-webdev/node-route-matcher.git",
+  "devDependencies": {
+    "nodeunit": "~0.8.0"
+  },
+  "scripts": {
+      "test": "./node_modules/nodeunit/bin/nodeunit test"
+  }
 }
